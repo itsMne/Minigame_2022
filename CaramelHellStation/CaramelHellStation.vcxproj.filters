@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObjects">
+      <UniqueIdentifier>{acbad6a9-cf52-4f4b-b933-50a1fec423e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EngineObjects">
+      <UniqueIdentifier>{ccd2c4c9-0a61-489f-ae2b-0a0b6d0bafbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObjects">
+      <UniqueIdentifier>{b59feac4-9e29-47c2-aecc-342939f4c68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EngineObjects">
+      <UniqueIdentifier>{b3319bad-7946-4240-90ba-1f720243a9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObjects\UI_Objects">
+      <UniqueIdentifier>{a2befbdf-289a-483d-ba54-9c24c7cea39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObjects\UI_Objects">
+      <UniqueIdentifier>{2ff8222b-8cde-43ed-9004-1701bdb91634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MainControllers">
+      <UniqueIdentifier>{59d3564a-7145-42ff-a106-a3d0c1750d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MainControllers">
+      <UniqueIdentifier>{2f34e89e-2229-4a97-9ddf-dc8b42bdee1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MainControllers\Scenes">
+      <UniqueIdentifier>{c119655c-4818-43d0-999b-831cbe717bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MainControllers\Scenes">
+      <UniqueIdentifier>{d4bcbd37-78c9-4aaa-8d6e-85129e5075b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C_DXWindow.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInputManager.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Object.cpp">
+      <Filter>ソース ファイル\GameObjects\UI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RankManager.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionControl.cpp">
+      <Filter>ソース ファイル\MainControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>ソース ファイル\MainControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>ソース ファイル\MainControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuControl.cpp">
+      <Filter>ソース ファイル\GameObjects\UI_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UniversalVariables.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="C_XInput.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInGame.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLogos.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMainMenu.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitleScreen.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>ソース ファイル\MainControllers\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\MainControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugAim.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleporter.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PunchStar.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoveryItem.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Gem.cpp">
+      <Filter>ソース ファイル\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_List.cpp">
+      <Filter>ソース ファイル\EngineObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C_DXWindow.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInputManager.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UniversalVariables.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Object.h">
+      <Filter>ヘッダー ファイル\GameObjects\UI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RankManager.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionControl.h">
+      <Filter>ヘッダー ファイル\MainControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>ヘッダー ファイル\MainControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>ヘッダー ファイル\MainControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuControl.h">
+      <Filter>ヘッダー ファイル\GameObjects\UI_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C_XInput.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>ヘッダー ファイル\MainControllers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>ヘッダー ファイル\MainControllers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInGame.h">
+      <Filter>ヘッダー ファイル\MainControllers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLogos.h">
+      <Filter>ヘッダー ファイル\MainControllers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMainMenu.h">
+      <Filter>ヘッダー ファイル\MainControllers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitleScreen.h">
+      <Filter>ヘッダー ファイル\MainControllers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>ヘッダー ファイル\MainControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\MainControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugAim.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleporter.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PunchStar.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoveryItem.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>ヘッダー ファイル\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_List.h">
+      <Filter>ヘッダー ファイル\EngineObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Pixel2D.cso">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="res\Vertex2D.cso">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\directx.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CaramelHellStation.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

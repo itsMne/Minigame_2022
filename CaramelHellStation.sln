@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CaramelHellStation", "CaramelHellStation\CaramelHellStation.vcxproj", "{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16A527B0-7018-44E5-AB98-A7457D5BBD50}"
+	ProjectSection(SolutionItems) = preProject
+		CaramelHellStation\CaramelHellStation.rc = CaramelHellStation\CaramelHellStation.rc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Debug|x64.ActiveCfg = Debug|x64
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Debug|x64.Build.0 = Debug|x64
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Debug|x86.ActiveCfg = Debug|Win32
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Debug|x86.Build.0 = Debug|Win32
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Release|x64.ActiveCfg = Release|x64
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Release|x64.Build.0 = Release|x64
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Release|x86.ActiveCfg = Release|Win32
+		{F60C61EE-6E56-4D3A-B6F7-0604F29C3E05}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {251834C3-491E-4F80-A84D-C980821AB872}
+	EndGlobalSection
+EndGlobal
